@@ -1,0 +1,303 @@
+/* Definições de fontes */
+@font-face {
+    font-family: 'Goblin';
+    src: url('fonte/VTCGoblinHandBold.ttf.eot'); 
+    src: url('fonte/VTCGoblinHandBold.ttf.eot?#iefix') format('embedded-opentype'),
+         url('fonte/VTCGoblinHandBold.ttf.woff') format('woff'),
+         url('fonte/VTCGoblinHandBold.ttf.svg#VTCGoblinHandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nova';
+    src: url('fonte-geral/NOVABOLD.otf') format('opentype');
+}
+
+/* Reseta margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o header e footer */
+header, footer {
+    background-color: #FEFAE7;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    border: 2px solid black;
+    position: relative; 
+}
+
+header {
+    border-bottom: 4px solid black;
+}
+
+footer {
+    position: relative;
+    justify-content: center;
+    width: 99.8%;
+    border-top: 4px solid black;
+    bottom: 0%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    background-color: rgb(0, 205, 130);
+}
+
+footer img {
+    width: 10%;
+    object-fit: cover;
+    height: 80%;
+    position: absolute;
+    right: 2%;
+    bottom: 0%;
+
+}
+
+#bages {
+    
+    margin-right: 20%;
+    width: 50%;
+    bottom: 40%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-family: nova;
+    font-size: 35px;
+}
+
+#bages a {
+
+    text-decoration: none; 
+
+
+}
+
+
+
+/* Estilos para a imagem dentro do header */
+header > img {
+    height: 100%;
+    padding-top: 3px;
+    bottom: 0%;
+    margin: 0%;
+
+}
+
+/* Estilo específico para o logo */
+#logo {
+    font-family: Goblin;
+    font-size: 20px;
+    position: absolute;
+    height: 60%;
+    left: 7%;
+    bottom: 0%;
+}
+
+ header #pages {
+    margin-left: 60%;
+    width: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-family: nova;
+    font-size: 20px;
+
+
+}
+
+#pages a {
+     
+    text-decoration: none; 
+}
+
+div.Home, .Notícias, .Entrevistas, .Eventos, .Galeria ,.Sobre {
+    margin-right: 30px;
+}
+
+
+/* Estilos gerais do body */
+body {
+    background-color: #f8f8f89d;
+}
+
+/* Estilos para o elemento main */
+main {
+    height: 76vh;
+    background-color: #f8f8f89d;
+    padding: 0;
+}
+
+/* Estilos para a caixa */
+div.box {
+    display: flex;
+    align-items: center;
+    height: 40%;
+    width: 70%;
+    justify-content: center;
+    padding: 0;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+/* Estilos para elementos .clbjr e .akio */
+.clbjr, .akio {
+    display: flex;
+    height: 100%;
+    border: 2px solid rgb(29, 28, 28);
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+/* Estilos para elementos .charlie e .olimpiada */
+.charlie, .olimpiada {
+    position: absolute;
+    width: auto;
+    font-size: 20px;
+    font-family: nova;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos específicos para .charlie */
+.charlie {
+    top: 40%;
+    left: 25%;
+
+}
+
+/* Estilos específicos para .olimpiada */
+.olimpiada {
+    top: 40%;
+    left: 60%;
+}
+
+
+/* post recentes */
+h2 {
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #125f43b8;
+}
+
+div.template {
+    display: flex;
+    height: 50%;
+    width: 99.5%;
+    padding-bottom: 100px;
+    margin-left: 2px;
+    /* border: 4px solid rgb(255, 0, 0);  essa borda server só pra ver o tamanho da caixa +ou-*/
+    position: relative;
+    
+}
+.raissa{
+    display: flex;
+    height: 60%;
+    width: auto;
+    margin-left: 352px;
+}
+
+span.raissa{
+    position: absolute;
+    bottom:55%;
+    left:1.5% ;
+    height: 20px;
+    font-family: nova;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.cab img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.cab{
+    display: flex;
+    height: 60%;
+    width: 350px;
+    margin-left: 100px;
+    padding: 0px;
+}
+
+span.cab{
+    position: absolute;
+    bottom: 55%;
+    left: 42%;
+    height: 20px;
+    width: 15%;
+    font-family: nova;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.l7 img {
+
+    width: 100%;
+    object-fit: cover; /*usa isso pelo amor de deus*/
+    
+}
+
+/* isso aqui foi uma gambiarra por causa que nao alinhei em colunas kk */
+
+.l7{
+    display: flex;
+    position: absolute;
+    margin-top: 230px;
+    left: 350px;
+    height: 50%;
+    width: 395px;
+}
+
+span.l7 {
+
+    position: absolute;
+    bottom: 4%;
+    left: 22%;
+    height: 20px;
+    width: 15%;
+    font-family: nova;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.tony img {
+
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.tony {
+    display: flex;
+    position: absolute;
+    margin-top: 230px;
+    left: 845px;
+    height: 50%;
+    width: 350px;
+
+}
+
+span.tony {
+
+    position: absolute;
+    bottom: 4%;
+    left: 47%;
+    height: 20px;
+    width: 15%;
+    font-family: nova;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7)
+
+
+}
